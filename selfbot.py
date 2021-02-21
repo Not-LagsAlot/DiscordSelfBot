@@ -1,5 +1,5 @@
 import discord #import Discord through CMD
-from discord.ext import commands #Import commands
+from discord.ext import commands 
 import random
 client = commands.Bot(command_prefix="$", self_bot=True)
 client.remove_command("help")
